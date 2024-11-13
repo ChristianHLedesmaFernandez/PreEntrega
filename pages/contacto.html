@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="icon" href="../img/flor-de-loto.png" type="image/x-icon">
+    <title>Contactenos</title>
+    <!-- Iconos -->
+    <!-- Enlaza Font Awesome -->
+    <script src="https://kit.fontawesome.com/57708374d2.js" crossorigin="anonymous"></script>    
+    <!-- Hoja de Estilo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleform.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="barra-superior">
+            <!-- Logo con Marca  -->
+            <div id="marca">
+                <!--    -->          
+                <img id="logo" src="../img/Florloto.png" alt="">                                      
+                <a id="inndomita">INNDOMITA</a>
+             </div> 
+             <!-- Menu Hamburgueza -->
+             <label class="label-hamburguesa" for="menu-hamburguesa">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input class="menu-hamburguesa" type="checkbox" name="" id="menu-hamburguesa">
+            <!-- Fin Menu Hamburgueza --> 
+            <ul  class="menu">                 
+                <li class="menu-item">
+                    <a class="nav-menu-link nav-link" href="../index.html">Inicio</a>
+                </li>   
+                <li class="menu-item">
+                    <a class="nav-menu-link nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="menu-item">
+                    <a class="nav-menu-link nav-link" href="resenias.html">Reseñas</a>
+                </li>
+                <li class="menu-item">
+                    <a class="contacto nav-menu-link nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Formulario de Contacto -->
+         <form action="https://formspree.io/f/xjkvklye" method="POST">
+            <h2>Contacto</h2>        
+            <input type="text" name="nombre" placeholder="Nombre"  size="10" maxlength="15" required>
+            <input type="email" name="correo" placeholder="Correo Electronico" required>
+            <input type="text" name="telefono" placeholder="Telefono"  size="10" maxlength="15" required>
+            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>        
+            <input type="submit" id="boton" value="Enviar">
+        </form>
+    </main>
+
+    <footer class="pie-pagina">   
+        <div >
+          <b>Version</b> 1.0.0
+        </div>
+        <strong>Copyright &copy; 2020-2024 <a class="pagina-personal" href="#"> CHHLF Developer </a>.</strong> Todos los derechos reservados.
+    </footer>
+</body>
+</html>
