@@ -128,7 +128,7 @@ header {
 @media (max-width: 768px) {
     body {
         transition: .5s;
-        background-image: url("../img/fondo2.jpg");       
+        background-image: url("../img/Fondo2.jpg");       
     }
     main {
         padding: 40px 20px;
